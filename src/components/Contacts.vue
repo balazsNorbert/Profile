@@ -38,15 +38,15 @@ export default {
 };
 </script>
 <template>
-    <div class="w-full absolute bottom-28 text-white flex justify-center">
-        <ul class="flex flex-col xl:flex-row justify-between gap-10 text-xl md:text-2xl">
+    <div class="w-full absolute bottom-14 md:bottom-28 text-white flex justify-center">
+        <ul class="flex flex-col xl:flex-row justify-between gap-3 xl:gap-10 text-md md:text-xl lg:text-2xl">
             <li class="flex items-center gap-3">
-                <span class="material-icons text-white md-60">
+                <span class="material-icons text-white md-48">
                     phone
                 </span>
                 <button ref="contact1"
                     @click="copyToClipboard('1')"
-                    class="bg-sky-500 text-white px-6 py-2 rounded-lg hover:bg-sky-300
+                    class="bg-sky-500 text-white py-2 px-3 rounded-lg hover:bg-sky-300
                     focus:outline-none focus:ring-2 focus:ring-indigo-300"
                 >
                   +40773836994
@@ -54,12 +54,12 @@ export default {
                 <p v-if="copied == 1" class="mt-2 text-green-500 text-sm">Copied!</p>
             </li>
             <li class="flex items-center gap-3">
-                <span class="material-icons-outlined text-white md-60">
+                <span class="material-icons-outlined text-white md-48">
                     email
                 </span>
                 <button ref="contact2"
                     @click="copyToClipboard('2')"
-                    class="bg-sky-500 text-white px-6 py-2 rounded-lg hover:bg-sky-300
+                    class="bg-sky-500 text-white py-2 px-3 rounded-lg hover:bg-sky-300
                     focus:outline-none focus:ring-2 focus:ring-indigo-300"
                 >
                   balazs_norbert99@yahoo.com
@@ -67,9 +67,9 @@ export default {
                 <p v-if="copied == 2" class="mt-2 text-green-500 text-sm">Copied!</p>
             </li>
             <li class="flex items-center gap-3">
-                <img class="w-14 h-14 text-white" src="../assets/svg/linkedin-brands-solid.svg" alt="Linkedin image">
+                <img class="w-12 md:h-12 text-white" src="../assets/svg/linkedin-brands-solid.svg" alt="Linkedin image">
                 <a  href="https://www.linkedin.com/in/bal%C3%A1zs-norbert-a17313261/"
-                    class="bg-sky-500 text-white px-6 py-2 rounded-lg hover:bg-sky-300
+                    class="bg-sky-500 text-white py-2 px-3 rounded-lg hover:bg-sky-300
                     focus:outline-none focus:ring-2 focus:ring-indigo-300 truncate ..."
                 >
                 Linkedin profile
