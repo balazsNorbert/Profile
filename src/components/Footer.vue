@@ -14,7 +14,7 @@
                     </span>
                 </a>
             </div>
-            <p class="text-sm md:text-base">© 2025 Your Name. All rights reserved.</p>
+            <p class="text-sm md:text-base">© 2025 Balázs Norbert. All rights reserved.</p>
         </div>
     </footer>
 </template>

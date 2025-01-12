@@ -4,7 +4,7 @@
         <ul class="flex gap-14 text-2xl 2xl:text-3xl font-medium">
             <li class="hover:text-sky-300"><RouterLink to="/skills">Skills</RouterLink></li>
             <li class="hover:text-sky-300"><RouterLink to="/contacts">Contacts</RouterLink></li>
-            <li class="hover:text-sky-300"><RouterLink to="/projects">Projects</RouterLink></li>
+            <li class="hover:text-sky-300"><RouterLink to="/portfolio">Portfolio</RouterLink></li>
             <li class="hover:text-sky-300"><RouterLink to="/resume">Resume</RouterLink></li>
         </ul>
     </nav>
