@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-col gap-8 py-12 bg-sky-200 font-lexend text-sky-700 text-lg md:text-xl xl:text-2xl">
+    <div class="flex flex-col gap-8 py-12 bg-sky-200 font-lexend text-sky-700 text-lg md:text-xl xl:text-2xl">
         <h2 class="text-3xl md:text-4xl xl:text-5xl font-semibold text-center text-sky-900">Portfolio</h2>
         <h3 class="text-2xl md:text-3xl xl:text-4xl mb-6 pl-6">Internship:</h3>
         <div class="flex flex-col gap-4 bg-white p-6 w-screen shadow-lg">
@@ -98,5 +98,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 </template>
