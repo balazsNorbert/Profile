@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col gap-8 px-6 py-12 bg-sky-200 font-lexend text-white">
+  <div class="flex flex-col gap-8 px-6 py-12 bg-sky-200 font-lexend text-white">
     <h2 class="text-3xl md:text-4xl xl:text-5xl font-semibold text-center text-sky-900">Skills</h2>
     <div class="flex overflow-hidden">
         <ul class="flex animate-scroll gap-4">
