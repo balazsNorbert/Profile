@@ -97,6 +97,22 @@
                     </div>
                 </div>
             </div>
+            <div class="flex flex-col gap-4">
+                <div class="flex flex-col gap-4 bg-white p-6 w-screen shadow-lg">
+                    <h3 class="text-xl md:text-2xl xl:text-3xl">
+                        My Profile website (Vue.js)
+                    </h3>
+                    <div class="flex gap-5 flex-wrap">
+                        <a class="border-2 border-sky-700 focus:border-white
+                        hover:bg-sky-700 hover:text-white p-3 rounded-full w-fit flex items-center gap-2" href="https://github.com/balazsNorbert/Profile" target="_blank">
+                            <span>Profile project</span>
+                            <span class="material-icons-outlined">
+                                east
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
