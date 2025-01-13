@@ -46,7 +46,7 @@ export default {
                 </span>
                 <button ref="contact1"
                     @click="copyToClipboard('1')"
-                    class="bg-sky-500 text-white py-2 px-3 rounded-lg hover:bg-sky-300
+                    class="bg-sky-600 shadow-xl text-white py-2 px-3 rounded-lg hover:bg-sky-300
                     focus:outline-none focus:ring-2 focus:ring-indigo-300"
                 >
                   +40773836994
@@ -59,7 +59,7 @@ export default {
                 </span>
                 <button ref="contact2"
                     @click="copyToClipboard('2')"
-                    class="bg-sky-500 text-white py-2 px-3 rounded-lg hover:bg-sky-300
+                    class="bg-sky-600 shadow-xl text-white py-2 px-3 rounded-lg hover:bg-sky-300
                     focus:outline-none focus:ring-2 focus:ring-indigo-300"
                 >
                   balazs_norbert99@yahoo.com
@@ -69,7 +69,7 @@ export default {
             <li class="flex items-center gap-2 md:gap-3">
                 <img class="w-12 h-12 text-white" src="../assets/svg/linkedin-brands-solid.svg" alt="Linkedin image">
                 <a  href="https://www.linkedin.com/in/bal%C3%A1zs-norbert-a17313261/"
-                    class="bg-sky-500 text-white py-2 px-3 rounded-lg hover:bg-sky-300
+                    class="bg-sky-600 shadow-xl text-white py-2 px-3 rounded-lg hover:bg-sky-300
                     focus:outline-none focus:ring-2 focus:ring-indigo-300 truncate ..."
                 >
                 Linkedin profile

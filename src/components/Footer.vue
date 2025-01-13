@@ -2,7 +2,7 @@
     <footer class="w-full bg-gray-800 text-white py-6">
         <div class="container mx-auto text-center">
             <div class="flex justify-center items-center gap-5">
-                <a href="https://github.com/yourusername">
+                <a href="https://github.com/balazsNorbert">
                     <img class="w-8 h-8 md:w-10 md:h-10" src="../assets/svg/github-color-svgrepo-com.svg" alt="Github image">
                 </a>
                 <a href="https://www.linkedin.com/in/bal%C3%A1zs-norbert-a17313261/">
