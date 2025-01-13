@@ -5,6 +5,7 @@ export default {
     extend: {
       animation:{
         'fade-in-down' : 'fade-in-down 0.5s ease-in-out forwards',
+        'threeD': 'threeD 0.2s ease-in-out forwards',
       },
       keyframes: {
         'fade-in-down': {
@@ -15,6 +16,14 @@ export default {
           '100%': {
             opacity: 1,
             translate: 'none',
+          },
+        },
+        'threeD': {
+          '0%': {
+            transform: 'scale(1)',
+          },
+          '100%': {
+            transform: 'scale(1.3)',
           },
         },
       },

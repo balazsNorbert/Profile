@@ -1,54 +1,54 @@
 <template>
   <div class="flex flex-col gap-8 px-6 py-12 bg-sky-200 font-lexend text-white">
     <h2 class="text-3xl md:text-4xl xl:text-5xl font-semibold text-center text-sky-900">Skills</h2>
-    <div class="flex overflow-hidden">
-        <ul class="flex animate-scroll gap-4">
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">HTML</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">CSS</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">JavaScript</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">React.js</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Vue.js</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Angular</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">TypeScript</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">JQuery</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Node.js</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">PHP</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Laravel</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Livewire</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Express.js</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">TypeScript</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">MySQL</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">MariaDB</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Oracle</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">MongoDB</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Git</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Github</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Bitbucket</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Docker</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">SEO</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">HTML</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">CSS</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">JavaScript</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">React.js</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Vue.js</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Angular</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">TypeScript</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">JQuery</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Node.js</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">PHP</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Laravel</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Livewire</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Express.js</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">TypeScript</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">MySQL</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">MariaDB</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Oracle</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">MongoDB</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Git</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Github</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Bitbucket</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">Docker</li>
-            <li class="from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:bg-teal-600">SEO</li>
+    <div class="flex overflow-hidden py-8">
+        <ul class="flex animate-scroll gap-3 text-lg md:text-xl xl:text-2xl">
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">HTML</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">CSS</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">JavaScript</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">React.js</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Vue.js</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Angular</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">TypeScript</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">JQuery</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Node.js</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">PHP</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Laravel</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Livewire</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Express.js</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">TypeScript</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">MySQL</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">MariaDB</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Oracle</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">MongoDB</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Git</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Github</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Bitbucket</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Docker</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">SEO</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">HTML</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">CSS</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">JavaScript</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">React.js</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Vue.js</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Angular</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">TypeScript</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">JQuery</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Node.js</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">PHP</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Laravel</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Livewire</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Express.js</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">TypeScript</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">MySQL</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">MariaDB</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Oracle</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">MongoDB</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Git</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Github</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Bitbucket</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">Docker</li>
+            <li class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl">SEO</li>
         </ul>
     </div>
     <div class="flex flex-col gap-4 overflow-hidden">
@@ -101,7 +101,7 @@
 </template>
 <style scoped>
   @keyframes scroll {
-    0% {
+    0%{
         transform: translate(0);
     }
     100%{
@@ -110,5 +110,22 @@
   }
   .animate-scroll {
     animation: scroll 20s linear infinite;
+    animation-play-state: running;
+  }
+  .animate-scroll:hover {
+    animation-play-state: paused;
+  }
+  .item:has(+ *:hover){
+    transform: rotateY(-45deg) scale(1.1);
+  }
+  .item:hover + * {
+    transform: rotateY(45deg) scale(1.1);
+  }
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  .perspective-midrange {
+    perspective: 1200px;
+    perspective-origin: center center;
   }
 </style>
