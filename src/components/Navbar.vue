@@ -8,7 +8,7 @@ export default {
   computed: {
     menuClasses() {
       return {
-        'max-h-0 opacity-0': !this.isMenuOpen,
+        'max-h-0 opacity-0 lg:max-h-full lg:opacity-100': !this.isMenuOpen,
         'max-h-[500px] opacity-100': this.isMenuOpen,
       };
     },
