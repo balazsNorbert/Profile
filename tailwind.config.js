@@ -32,8 +32,8 @@ export default {
         'lexend': ['Lexend', 'sans-serif'],
       },
       backgroundImage: {
-        'bgImage': "url('./src/assets/jpg/background-image-1.jpg')",
-      }
+        'radial-gradient': 'radial-gradient(90% 90% at 50% 10%, #111827 40%, #0277b4 100%)',
+      },
   },
   plugins: [],
 }
