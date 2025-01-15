@@ -3,13 +3,13 @@
         <div class="mx-auto text-center">
             <div class="flex justify-center items-center gap-5">
                 <a href="https://github.com/balazsNorbert">
-                    <img class="w-8 h-8 md:w-10 md:h-10" src="../assets/svg/github-color-svgrepo-com.svg" alt="Github image">
+                    <img class="w-8 h-8 md:w-10 md:h-10 transition-all duration-300 transform hover:-translate-y-2" src="../assets/svg/github-color-svgrepo-com.svg" alt="Github image">
                 </a>
                 <a href="https://www.linkedin.com/in/bal%C3%A1zs-norbert-a17313261/">
-                    <img class="w-20 h-20 md:w-24 md:h-24" src="../assets/svg/linkedin-svgrepo-com.svg" alt="Linkedin image">
+                    <img class="w-20 h-20 md:w-24 md:h-24 transition-all duration-300 transform hover:-translate-y-2" src="../assets/svg/linkedin-svgrepo-com.svg" alt="Linkedin image">
                 </a>
                 <a href="mailto:balazs_norbert99@yahoo.com">
-                    <span class="material-icons-outlined text-blue-600 md-40">
+                    <span class="material-icons-outlined text-blue-600 md-40 transition-all duration-300 transform hover:-translate-y-2">
                         email
                     </span>
                 </a>
