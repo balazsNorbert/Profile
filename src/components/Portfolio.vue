@@ -1,13 +1,25 @@
+<script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+export default {
+  mounted() {
+    AOS.init({
+        duration: 500,
+        delay: 200,
+    });
+  }
+};
+</script>
 <template>
     <div class="flex flex-col items-center gap-14 py-12 bg-sky-200 font-lexend text-sky-700 text-lg md:text-xl xl:text-2xl">
-        <h2 class="text-3xl md:text-4xl xl:text-5xl font-semibold text-center text-sky-900">Portfolio</h2>
-        <div class="flex items-center text-left w-5/6 gap-2 pl-6">
+        <h2 data-aos="fade-up" class="text-3xl md:text-4xl xl:text-5xl font-semibold text-center text-sky-900">Portfolio</h2>
+        <div data-aos="fade-up" class="flex items-center text-left w-5/6 gap-2 pl-6">
             <span class="material-icons md-36">
                 work
             </span>
             <h3 class="text-2xl md:text-3xl xl:text-4xl">Internship:</h3>
         </div>
-        <div class="flex flex-col w-5/6 gap-4 bg-white p-6 rounded-3xl shadow-2xl">
+        <div data-aos="fade-up" class="flex flex-col w-5/6 gap-4 bg-white p-6 rounded-3xl shadow-2xl">
             <p>
                 Developed a <span class="font-bold">full-stack</span> web application using <span class="font-bold">TALL(Tailwind,
                 Alpinge.js, Laravel, Livewire) stack</span> based on designs from Figma.
@@ -20,13 +32,13 @@
                 </span>
             </a>
         </div>
-        <h3 class="flex items-center gap-2 text-left w-5/6 text-2xl md:text-3xl xl:text-4xl pl-6">
+        <h3 data-aos="fade-up" class="flex items-center gap-2 text-left w-5/6 text-2xl md:text-3xl xl:text-4xl pl-6">
             <span class="material-icons md-36">school</span>
             <span>Certifications & </span>
             <span class="material-icons md-36">folder</span>
             <span>Projects:</span>
         </h3>
-        <div class="flex flex-col w-5/6 gap-8">
+        <div data-aos="fade-up" class="flex flex-col w-5/6 gap-8">
             <div class="flex flex-col gap-4">
                 <div class="flex flex-col gap-4 bg-white p-6 rounded-3xl shadow-2xl">
                     <h3 class="text-xl md:text-2xl xl:text-3xl">
@@ -63,7 +75,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col gap-4">
+            <div data-aos="fade-up" class="flex flex-col gap-4">
                 <div class="flex flex-col gap-4 bg-white p-6 rounded-3xl shadow-2xl">
                     <h3 class="text-xl md:text-2xl xl:text-3xl">
                         Angular - The Complete Guide (2023 Edition)
@@ -85,7 +97,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col gap-4">
+            <div data-aos="fade-up" class="flex flex-col gap-4">
                 <div class="flex flex-col gap-4 bg-white p-6 rounded-3xl shadow-2xl">
                     <h3 class="text-xl md:text-2xl xl:text-3xl">
                         Understanding TypeScript
@@ -107,7 +119,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col gap-4">
+            <div data-aos="fade-up" class="flex flex-col gap-4">
                 <div class="flex flex-col gap-4 bg-white p-6 rounded-3xl shadow-2xl">
                     <h3 class="text-xl md:text-2xl xl:text-3xl">
                         My Profile website (Vue.js)

@@ -25,12 +25,12 @@ const routes = [
   {
     path: '/about-me',
     component: AboutMe
-  }
-]
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
