@@ -1,7 +1,20 @@
+<script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+export default {
+  mounted() {
+    AOS.init({
+        duration: 500,
+        delay: 200,
+    });
+  }
+};
+</script>
 <template>
   <div class="flex flex-col items-center gap-3 mb-14">
-    <h2 class="font-lexend text-white text-3xl md:text-4xl xl:text-5xl mb-6">My Resume:</h2>
-    <div class="flex gap-4 text-md md:text-xl xl:text-2xl">
+    <h2 data-aos="fade-in" class="font-lexend text-white text-3xl md:text-4xl xl:text-5xl mb-6">My Resume:</h2>
+    <div data-aos="fade-in" class="flex flex-wrap text-center ml-10 gap-4 text-md md:text-xl xl:text-2xl">
       <a
         href="/Balázs_Norbert_en.pdf"
         target="_blank"

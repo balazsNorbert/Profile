@@ -1,4 +1,6 @@
 <script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export default {
   data() {
     return {
@@ -35,11 +37,17 @@ export default {
       }
     },
   },
+  mounted() {
+    AOS.init({
+      duration: 500,
+      delay: 200,
+    });
+  },
 };
 </script>
 <template>
     <div class="w-full text-white flex justify-center mb-14">
-        <ul class="flex flex-col xl:flex-row justify-between gap-3 xl:gap-10 text-md md:text-xl lg:text-2xl">
+        <ul data-aos="fade-in" class="flex flex-col xl:flex-row justify-between gap-3 xl:gap-10 text-md md:text-xl lg:text-2xl">
             <li class="flex items-center gap-2 md:gap-3">
                 <span class="material-icons text-white md-48">
                     phone

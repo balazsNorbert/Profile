@@ -1,3 +1,15 @@
+<script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+export default {
+  mounted() {
+    AOS.init({
+        duration: 500,
+        delay: 200,
+    });
+  }
+};
+</script>
 <template>
     <div class="flex flex-col items-center gap-14 py-12 bg-sky-200 font-lexend text-sky-700 text-lg md:text-xl xl:text-2xl">
         <h2 data-aos="fade-up" class="text-3xl md:text-4xl xl:text-5xl font-semibold text-center text-sky-900">Portfolio</h2>
