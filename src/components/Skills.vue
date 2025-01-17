@@ -54,16 +54,15 @@ export default {
     mounted() {
         AOS.init({
             duration: 500,
-            delay: 200,
         });
     }
 };
 </script>
 <template>
     <div class="flex flex-col gap-8 px-6 py-12 bg-sky-200 font-lexend text-white">
-        <h2 data-aos="fade-up" class="text-3xl md:text-4xl xl:text-5xl font-semibold text-center text-sky-900">Skills
+        <h2 class="text-3xl md:text-4xl xl:text-5xl font-semibold text-center text-sky-900">Skills
         </h2>
-        <div data-aos="fade-up" class="flex overflow-hidden py-8">
+        <div class="flex overflow-hidden py-8">
             <ul class="flex animate-scroll gap-3 text-lg xl:text-xl">
                 <li v-for="( skill, index) in allSkills" :key=" index "
                     class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl w-28 xl:w-32 text-center">
