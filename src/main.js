@@ -7,6 +7,7 @@ import router from './router'
 
 import en from './locales/en.json';
 import hu from './locales/hu.json';
+import ro from './locales/ro.json';
 
 const i18n = createI18n({
   locale: 'en',
@@ -14,6 +15,7 @@ const i18n = createI18n({
   messages: {
     en,
     hu,
+    ro,
   },
 });
 

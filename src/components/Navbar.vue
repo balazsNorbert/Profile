@@ -79,7 +79,7 @@ export default {
           >
             HU
           </button>
-          <!-- <span class="text-white">|</span>
+          <span class="text-white">|</span>
           <button
             :class="[
               'px-4 py-2 rounded-full text-white bg-transparent border-2 border-white transition-all duration-300',
@@ -88,7 +88,7 @@ export default {
             @click="changeLanguage('ro')"
           >
             RO
-          </button> -->
+          </button>
         </div>
       </ul>
     </div>
