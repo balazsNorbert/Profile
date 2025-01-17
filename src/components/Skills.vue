@@ -62,7 +62,7 @@ export default {
     <div class="flex flex-col gap-8 px-6 py-12 bg-sky-200 font-lexend text-white">
         <h2 class="text-3xl md:text-4xl xl:text-5xl font-semibold text-center text-sky-900">Skills
         </h2>
-        <div class="flex overflow-hidden py-8">
+        <div class="flex overflow-hidden py-8 w-full md:w-5/6 mx-auto">
             <ul class="flex animate-scroll gap-3 text-lg xl:text-xl">
                 <li v-for="( skill, index) in allSkills" :key=" index "
                     class="item from-sky-900 to-sky-600 bg-gradient-to-b p-3 rounded-lg hover:animate-threeD shadow-xl w-28 xl:w-32 text-center">
@@ -72,7 +72,7 @@ export default {
                     {{ skill.name }}</li>
             </ul>
         </div>
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 w-full md:w-5/6 mx-auto">
             <h3 data-aos="fade-up" class="text-2xl xl:text-3xl font-bold text-teal-600">Frontend Development</h3>
             <ul class="grid grid-cols-2 md:grid-cols-3 text-center gap-4 text-xl xl:text-2xl">
                 <li data-aos="fade-up" v-for="( skill, index) in frontendSkills" :key=" index " class="flex flex-col
@@ -83,7 +83,7 @@ export default {
             </ul>
         </div>
 
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 w-full md:w-5/6 mx-auto">
             <h3 data-aos="fade-up" class="text-2xl xl:text-3xl font-bold text-indigo-600">Backend Development</h3>
             <ul class="grid grid-cols-2 md:grid-cols-3 text-center gap-4 text-xl xl:text-2xl">
                 <li data-aos="fade-up" v-for="( skill, index) in backendSkills" :key=" index " class="flex flex-col
@@ -94,7 +94,7 @@ export default {
             </ul>
         </div>
 
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 w-full md:w-5/6 mx-auto">
             <h3 data-aos="fade-up" class="text-2xl xl:text-3xl font-bold text-purple-600">Databases</h3>
             <ul class="grid grid-cols-2 md:grid-cols-3 text-center gap-4 text-xl xl:text-2xl">
                 <li data-aos="fade-up" v-for="( skill, index) in databaseSkills" :key=" index " class="flex flex-col
@@ -105,7 +105,7 @@ export default {
             </ul>
         </div>
 
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 w-full md:w-5/6 mx-auto">
             <h3 data-aos="fade-up" class="text-2xl xl:text-3xl font-bold text-yellow-600">Other Skills</h3>
             <ul class="grid grid-cols-2 md:grid-cols-3 text-center gap-4 text-xl xl:text-2xl">
                 <li data-aos="fade-up" v-for="( skill, index) in otherSkills" :key=" index " class="flex flex-col

@@ -12,7 +12,7 @@ export default {
 <template>
     <div class="flex flex-col items-center gap-8 py-12 bg-gradient bg-sky-200 font-lexend text-sky-700">
         <h2 class="text-3xl md:text-4xl xl:text-5xl font-semibold text-center text-sky-900">About Me</h2>
-        <div data-aos="fade-in" class="flex flex-col gap-8 w-5/6">
+        <div data-aos="fade-in" class="flex flex-col gap-8 w-full md:w-5/6">
             <p class="text-lg md:text-xl xl:text-2xl bg-white p-6 shadow-lg rounded-3xl animate-fade-in-down">
                 I am a <span class="font-bold text-sky-700">highly motivated frontend and full-stack developer</span> with a strong foundation in modern web technologies. My journey into the tech world began during my high school years, where I discovered informatics and later on web development. I have since dedicated myself for building intuitive and efficient web applications. Over the years, I have built my skills through a combination of academic learning, online courses, and hands-on projects. One of the highlights of my experience was last spring, when I had the opportunity to participate in an intensive internship <span class="material-icons md-24 relative top-1">work</span> program. During this time, I worked on a full-stack project utilizing the <span class="font-bold text-sky-700">TALL Stack (Tailwind CSS, Alpine.js, Livewire, and Laravel)</span>, which allowed me to deepen my understanding of both frontend and backend development.
             </p>
