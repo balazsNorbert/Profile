@@ -45,7 +45,7 @@ export default {
       </h3>
       <div data-aos="fade-up" class="flex flex-col gap-8 text-left w-full">
         <div class="flex flex-col gap-4 bg-white p-6 rounded-3xl shadow-2xl">
-          <h3 class="text-xl md:text-2xl xl:text-3xl">
+          <h3 class="text-lg md:text-xl xl:text-2xl">
             THE COMPLETE 2023 WEB DEVELOPMENT BOOTCAMP
           </h3>
           <div class="flex gap-5 flex-wrap">
@@ -81,7 +81,7 @@ export default {
         </div>
         <div data-aos="fade-up" class="flex flex-col gap-4">
           <div class="flex flex-col gap-4 bg-white p-6 rounded-3xl shadow-2xl">
-            <h3 class="text-xl md:text-2xl xl:text-3xl">
+            <h3 class="text-lg md:text-xl xl:text-2xl">
               Angular - The Complete Guide (2023 Edition)
             </h3>
             <div class="flex gap-5 flex-wrap">
@@ -104,7 +104,7 @@ export default {
         </div>
         <div data-aos="fade-up" class="flex flex-col gap-4">
           <div class="flex flex-col gap-4 bg-white p-6 rounded-3xl shadow-2xl">
-            <h3 class="text-xl md:text-2xl xl:text-3xl">
+            <h3 class="text-lg md:text-xl xl:text-2xl">
               Understanding TypeScript
             </h3>
             <div class="flex gap-5 flex-wrap">
@@ -127,7 +127,7 @@ export default {
         </div>
         <div data-aos="fade-up" class="flex flex-col gap-4">
           <div class="flex flex-col gap-4 bg-white p-6 rounded-3xl shadow-2xl">
-            <h3 class="text-xl md:text-2xl xl:text-3xl">
+            <h3 class="text-lg md:text-xl xl:text-2xl">
               My Profile website (Vue.js)
             </h3>
             <div class="flex gap-5 flex-wrap">

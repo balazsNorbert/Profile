@@ -21,5 +21,6 @@
   "aboutMeText2": "Fókuszom a reszponzív és felhasználóbarát alkalmazások létrehozására irányul, amelyek nemcsak a kliens igényeit elégítik ki, hanem kiváló felhasználói élményt is nyújtanak. A webfejlesztés számomra nemcsak egy hivatás, hanem egy mesterség is. Folyamatosan új eszközöket, keretrendszereket és legjobb gyakorlatokat kutatok, hogy mindig naprakész legyek a folyamatosan változó technológiai világban. Célom, hogy hozzájáruljak olyan innovatív projektekhez, amelyek jelentős hatással bírnak, akár bonyolult folyamatok egyszerűsítésével, akár olyan megoldások szállításával, amelyek értéket adnak a felhasználóknak.",
   "aboutMeText3": "Amikor nem kódolok, különféle hobbikat űzök, amelyek segítenek megőrizni az egyensúlyomat és inspirálnak. Szeretek edzeni, hogy megőrizzem a fizikai és mentális jólétemet, filmeket és sorozatokat nézni, valamint időt tölteni a barátaimmal, hogy feltöltődjek. Ezek a tevékenységek emlékeztetnek arra, hogy mennyire fontos a kiegyensúlyozott élet, amely szerintem kulcs a tartós fejlődéshez és sikerhez, személyesen és szakmailag egyaránt.",
   "contacts": "Elérhetőségek",
-  "resume": "Önéletrajz"
+  "resume": "Önéletrajz",
+  "resumeLink": "/Profile/Balazs_Norbert_hu.pdf"
 }
