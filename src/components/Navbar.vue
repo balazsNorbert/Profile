@@ -11,8 +11,8 @@ export default {
     const isScrolled = ref(false);
     const menuClasses = computed(() => {
       return {
-        'max-h-0 opacity-0 lg:max-h-full lg:opacity-100': !isMenuOpen.value,
-        'max-h-[500px] opacity-100': isMenuOpen.value,
+        'max-h-0 opacity-0 pointer-events-none lg:max-h-full lg:opacity-100 lg:pointer-events-auto': !isMenuOpen.value,
+        'max-h-[500px] opacity-100 pointer-events-auto': isMenuOpen.value,
       };
     });
 
@@ -56,23 +56,23 @@ export default {
     <h1 class="text-xl md:text-2xl 2xl:text-3xl font-bold font-serif mt-1 lg:mt-0">
       <RouterLink to="/">Balázs <span class="text-gray-800">Norbert</span></RouterLink>
     </h1>
-    <div @click=" toggleMenu " class="text-right">
-      <button class="material-icons md-36 lg:hidden">menu</button>
+    <div class="text-right">
+      <button  @click=" toggleMenu " class="material-icons md-36 lg:hidden">menu</button>
       <ul :class=" menuClasses "
         class="absolute lg:relative top-full lg:top-0 right-0 pr-6 lg:pr-0 w-full bg-sky-700 lg:bg-transparent lg:text-center flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-6 xl:gap-8 text-xl 2xl:text-2xl font-medium transition-[max-height] duration-300 ease-in-out">
-        <li class="hover:text-sky-400">
+        <li class="hover:text-sky-400 w-fit ml-auto">
           <RouterLink to="/about-me">{{ $t( 'aboutMe' ) }}</RouterLink>
         </li>
-        <li class="hover:text-sky-400">
+        <li class="hover:text-sky-400 w-fit ml-auto">
           <RouterLink to="/skills">{{ $t( 'skills' ) }}</RouterLink>
         </li>
-        <li class="hover:text-sky-400">
+        <li class="hover:text-sky-400 w-fit ml-auto">
           <RouterLink to="/portfolio">{{ $t( 'portfolio' ) }}</RouterLink>
         </li>
-        <li class="hover:text-sky-400">
+        <li class="hover:text-sky-400 w-fit ml-auto">
           <RouterLink to="/contacts">{{ $t( 'contacts' ) }}</RouterLink>
         </li>
-        <li class="hover:text-sky-400">
+        <li class="hover:text-sky-400 w-fit ml-auto">
           <RouterLink to="/resume">{{ $t( 'resume' ) }}</RouterLink>
         </li>
         <div
