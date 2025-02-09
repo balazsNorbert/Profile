@@ -14,7 +14,7 @@ export default {
     <div class="w-5/6 mx-auto flex flex-col items-center gap-14 py-12">
       <h2 class="text-3xl md:text-4xl xl:text-5xl font-semibold text-center text-sky-900">{{ $t( 'portfolio' ) }}</h2>
       <div class="flex items-center text-left w-full gap-2">
-        <span class="material-icons md-36">
+        <span class="material-icons text-3xl md:text-4xl">
           work
         </span>
         <h3 class="text-2xl md:text-3xl xl:text-4xl">Internship:</h3>
@@ -27,7 +27,7 @@ export default {
         <a class="border-2 border-sky-700 hover:bg-sky-700 hover:text-white p-3 rounded-full w-fit flex items-center gap-2"
           href="https://bitbucket.org/mencs2022/mencs-repo-ll/" target="_blank">
           <span>Tall stack {{ $t( 'project' ) }}</span>
-          <span class="material-icons-outlined ">
+          <span class="material-icons-outlined text-2xl md:text-3xl lg:text-4xl">
             east
           </span>
         </a>
@@ -35,11 +35,11 @@ export default {
       <h3 data-aos="fade-up"
         class="flex items-center flex-wrap gap-2 text-left w-full text-2xl md:text-3xl xl:text-4xl">
         <div class="flex items-center gap-2">
-          <span class="material-icons md-36">school</span>
+          <span class="material-icons text-3xl md:text-4xl">school</span>
           <span>Certifications & </span>
         </div>
         <div class="flex items-center gap-2">
-          <span class="material-icons md-36">folder</span>
+          <span class="material-icons text-3xl md:text-4xl">folder</span>
           <span>Projects:</span>
         </div>
       </h3>
@@ -53,12 +53,12 @@ export default {
               <a class="border-2 border-sky-700 hover:bg-sky-700 hover:text-white p-3 rounded-full w-fit flex
               items-center gap-2" href="https://workoutracker.com" target="_blank">
                 <span>View website</span>
-                <span class="material-icons md-36">visibility</span>
+                <span class="material-icons text-2xl md:text-3xl lg:text-4xl">visibility</span>
               </a>
               <a class="border-2 border-sky-700 hover:bg-sky-700 hover:text-white p-3 rounded-full w-fit flex
               items-center gap-2" href="https://github.com/balazsNorbert/PR-tracker" target="_blank">
                 <span>Workout tracker {{ $t( 'project' ) }}</span>
-                <span class="material-icons-outlined">
+                <span class="material-icons-outlined text-2xl md:text-3xl lg:text-4xl">
                   east
                 </span>
               </a>
@@ -74,7 +74,7 @@ export default {
               <a class="border-2 border-sky-700 hover:bg-sky-700 hover:text-white p-3 rounded-full w-fit flex
               items-center gap-2" href="https://github.com/balazsNorbert/Profile" target="_blank">
                 <span>Profile {{ $t( 'project' ) }}</span>
-                <span class="material-icons-outlined">
+                <span class="material-icons-outlined text-2xl md:text-3xl lg:text-4xl">
                   east
                 </span>
               </a>
@@ -90,19 +90,19 @@ export default {
                         flex items-center gap-2"
               href="https://www.udemy.com/certificate/UC-ca1032bc-daab-47a9-b8d6-72fd527a87af/" target="_blank">
               <span>{{ $t( 'viewCertificate' ) }}</span>
-              <span class="material-icons md-36">visibility</span>
+              <span class="material-icons text-2xl md:text-3xl lg:text-4xl">visibility</span>
             </a>
             <a class="border-2 border-sky-700 hover:bg-sky-700 hover:text-white p-3 rounded-full w-fit
                         flex items-center gap-2" href="https://github.com/balazsNorbert/Keeper-App" target="_blank">
               <span>React {{ $t( 'project' ) }}</span>
-              <span class="material-icons-outlined ">
+              <span class="material-icons-outlined text-2xl md:text-3xl lg:text-4xl">
                 east
               </span>
             </a>
             <a class="border-2 border-sky-700 hover:bg-sky-700 hover:text-white p-3 rounded-full w-fit flex
                         items-center gap-2" href="https://github.com/balazsNorbert/To-Do-List" target="_blank">
               <span>ToDo List {{ $t( 'project' ) }}</span>
-              <span class="material-icons-outlined ">
+              <span class="material-icons-outlined text-2xl md:text-3xl lg:text-4xl">
                 east
               </span>
             </a>
@@ -110,7 +110,7 @@ export default {
                         items-center gap-2" href="https://github.com/balazsNorbert/Blog-{{ $t('project') }}"
               target="_blank">
               <span>Blog {{ $t( 'project' ) }}</span>
-              <span class="material-icons-outlined ">
+              <span class="material-icons-outlined text-2xl md:text-3xl lg:text-4xl">
                 east
               </span>
             </a>
@@ -125,13 +125,13 @@ export default {
                       items-center gap-2"
               href="https://www.udemy.com/certificate/UC-ca1032bc-daab-47a9-b8d6-72fd527a87af/" target="_blank">
               <span>{{ $t( 'viewCertificate' ) }}</span>
-              <span class="material-icons md-36">visibility</span>
+              <span class="material-icons text-2xl md:text-3xl lg:text-4xl">visibility</span>
             </a>
             <a class="border-2 border-sky-700 hover:bg-sky-700 hover:text-white p-3 rounded-full w-fit flex
                       items-center gap-2" href="https://github.com/balazsNorbert/Angular-{{ $t('project') }}"
               target="_blank">
               <span>Angular {{ $t( 'project' ) }}</span>
-              <span class="material-icons-outlined">
+              <span class="material-icons-outlined text-2xl md:text-3xl lg:text-4xl">
                 east
               </span>
             </a>
@@ -146,13 +146,13 @@ export default {
               flex items-center gap-2"
               href="https://www.udemy.com/certificate/UC-ca1032bc-daab-47a9-b8d6-72fd527a87af/" target="_blank">
               <span>{{ $t( 'viewCertificate' ) }}</span>
-              <span class="material-icons md-36">visibility</span>
+              <span class="material-icons text-2xl md:text-3xl lg:text-4xl">visibility</span>
             </a>
             <a class="border-2 border-sky-700 hover:bg-sky-700 hover:text-white p-3 rounded-full w-fit
               flex items-center gap-2" href="https://github.com/balazsNorbert/Typescript-{{ $t('project') }}"
               target="_blank">
               <span>TypeScript {{ $t( 'project' ) }}</span>
-              <span class="material-icons-outlined">
+              <span class="material-icons-outlined text-2xl md:text-3xl lg:text-4xl">
                 east
               </span>
             </a>

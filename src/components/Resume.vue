@@ -22,7 +22,7 @@ export default {
         target="_blank"
         class="bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-500 text-white py-3 px-4 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl hover:from-blue-600 hover:to-teal-600">
         <span class="flex items-center gap-2">
-          <span class="material-icons md-36">visibility</span>
+          <span class="material-icons  text-3xl md:text-4xl">visibility</span>
             {{ $t('viewResume') }}
         </span>
       </a>
@@ -31,7 +31,7 @@ export default {
         :download="resumeLink"
         class="bg-gradient-to-r to-green-500 via-lime-500 from-yellow-500 text-white py-3 px-4 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl hover:to-green-600 hover:from-yellow-600">
         <span class="flex items-center gap-2">
-          <span class="material-icons md-36">file_download</span>
+          <span class="material-icons text-3xl md:text-4xl">file_download</span>
             {{ $t('downloadResume') }}
         </span>
       </a>
