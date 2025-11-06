@@ -47,6 +47,20 @@ export default {
         <div data-aos="fade-up" class="flex flex-col gap-4">
           <div class="flex flex-col gap-4 bg-white p-6 rounded-3xl shadow-2xl">
             <h3 class="text-lg md:text-xl xl:text-2xl">
+              Event Planner (Vue3, Laravel, MySQL)
+            </h3>
+            <a class="border-2 border-sky-700 hover:bg-sky-700 hover:text-white p-3 rounded-full w-fit flex
+            items-center gap-2" href="https://github.com/balazsNorbert/Event-App" target="_blank">
+              <span>Event Planner {{ $t( 'project' ) }}</span>
+              <span class="material-icons-outlined text-2xl md:text-3xl lg:text-4xl">
+                east
+              </span>
+            </a>
+          </div>
+        </div>
+        <div data-aos="fade-up" class="flex flex-col gap-4">
+          <div class="flex flex-col gap-4 bg-white p-6 rounded-3xl shadow-2xl">
+            <h3 class="text-lg md:text-xl xl:text-2xl">
               Workout Tracker website (React.js, Node.js, MongoDB)
             </h3>
             <div class="flex gap-5 flex-wrap">
@@ -116,7 +130,7 @@ export default {
             </a>
           </div>
         </div>
-        <div data-aos="fade-up" class="flex flex-col gap-4 bg-white p-6 rounded-3xl shadow-2xl">
+        <div class="flex flex-col gap-4 bg-white p-6 rounded-3xl shadow-2xl">
           <h3 class="text-lg md:text-xl xl:text-2xl">
             Angular - The Complete Guide (2023 Edition)
           </h3>
