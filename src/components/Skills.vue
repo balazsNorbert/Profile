@@ -36,6 +36,7 @@ export default {
         { name: 'Git' },
         { name: 'GitHub' },
         { name: 'Bitbucket' },
+        { name: 'Nginx' },
         { name: 'Docker' },
         { name: 'SEO' },
       ],
