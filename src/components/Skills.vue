@@ -32,12 +32,21 @@ export default {
         { name: 'MongoDB' },
       ],
 
+      aiSkills: [
+        { name: 'ChatGPT' },
+        { name: 'Gemini' },
+        { name: 'Claude' },
+        { name: 'Copilot' },
+        { name: 'Cursor' },
+      ],
+
       otherSkills: [
         { name: 'Git' },
         { name: 'GitHub' },
         { name: 'Bitbucket' },
-        { name: 'Nginx' },
+        { name: 'Playwright' },
         { name: 'Docker' },
+        { name: 'Nginx' },
         { name: 'SEO' },
       ],
     };
@@ -48,6 +57,7 @@ export default {
         ...this.frontendSkills,
         ...this.backendSkills,
         ...this.databaseSkills,
+        ...this.aiSkills,
         ...this.otherSkills
       ];
     }
@@ -101,6 +111,17 @@ export default {
       <ul class="grid grid-cols-2 md:grid-cols-3 text-center gap-4 text-xl xl:text-2xl">
         <li data-aos="fade-up" v-for="(  skill, index) in databaseSkills" :key=" index " class="flex flex-col
                     relative group bg-gradient-to-b from-purple-600 to-purple-400 p-3 rounded-xl
+                    hover:shadow-lg categorySkill">
+          <span>{{ skill.name }}</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="flex flex-col gap-4 w-full md:w-5/6 mx-auto">
+      <h3 data-aos="fade-up" class="text-2xl xl:text-3xl font-bold text-blue-600">AI Tools</h3>
+      <ul class="grid grid-cols-2 md:grid-cols-3 text-center gap-4 text-xl xl:text-2xl">
+        <li data-aos="fade-up" v-for="(  skill, index) in aiSkills" :key=" index " class="flex flex-col
+                    relative group bg-gradient-to-b from-blue-600 to-blue-400 p-3 rounded-xl
                     hover:shadow-lg categorySkill">
           <span>{{ skill.name }}</span>
         </li>
