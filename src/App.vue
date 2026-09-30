@@ -40,7 +40,7 @@ export default {
       <img loading="lazy" class="max-w-72 md:max-w-80 xl:max-w-96 bg-white rounded-full p-4 border-separated border-4 border-sky-300 hover:scale-110 ease-in-out duration-500" src="./assets/png/profile-character.png" alt="Profile picture">
       <div class="text-center w-full md:text-left">
         <vue-writer :array="textArray" :key="$i18n.locale"
-          :typeSpeed="70" :iterations="1" :eraseSpeed="50" :delay="500" class="font-lexend text-white text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold inline-block flex-wrap">
+          :typeSpeed="50" :iterations="1" :eraseSpeed="50" :delay="500" class="font-lexend text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold inline-block flex-wrap">
         </vue-writer>
         <div class="flex flex-wrap gap-4 mt-6 text-lg md:text-xl xl:text-2xl">
           <routerLink to="/about-me" class="flex items-center gap-2 bg-sky-400 text-white px-4 py-3 rounded-lg hover:bg-sky-500 transition">

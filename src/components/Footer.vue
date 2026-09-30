@@ -9,12 +9,12 @@
                     <img class="w-20 h-20 md:w-24 md:h-24 transition-all duration-300 transform hover:-translate-y-2" src="../assets/svg/linkedin-svgrepo-com.svg" alt="Linkedin image">
                 </a>
                 <a href="mailto:balazs_norbert99@yahoo.com">
-                    <span class="material-icons-outlined text-blue-600 md-40 transition-all duration-300 transform hover:-translate-y-2">
+                    <span class="material-icons-outlined text-blue-500 md-40 transition-all duration-300 transform hover:-translate-y-2">
                         email
                     </span>
                 </a>
             </div>
-            <p class="text-sm md:text-base">© 2025 Balázs Norbert. All rights reserved.</p>
+            <p class="text-sm md:text-base">© 2026 Balázs Norbert. All rights reserved.</p>
         </div>
     </footer>
 </template>

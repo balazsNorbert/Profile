@@ -58,8 +58,6 @@ export default {
             </a>
           </div>
         </div>
-      </div>
-      <div class="flex flex-col gap-8 text-left w-full">
         <div data-aos="fade-up" class="flex flex-col gap-4">
           <div class="flex flex-col gap-4 bg-white p-6 rounded-3xl shadow-2xl">
             <h3 class="text-lg md:text-xl xl:text-2xl">
@@ -80,11 +78,6 @@ export default {
               Workout Tracker website (React.js, Node.js, MongoDB)
             </h3>
             <div class="flex gap-5 flex-wrap">
-              <a class="border-2 border-sky-700 hover:bg-sky-700 hover:text-white p-3 rounded-full w-fit flex
-              items-center gap-2" href="https://workoutracker.com" target="_blank">
-                <span>View website</span>
-                <span class="material-icons text-2xl md:text-3xl lg:text-4xl">visibility</span>
-              </a>
               <a class="border-2 border-sky-700 hover:bg-sky-700 hover:text-white p-3 rounded-full w-fit flex
               items-center gap-2" href="https://github.com/balazsNorbert/PR-tracker" target="_blank">
                 <span>Workout tracker {{ $t( 'project' ) }}</span>
